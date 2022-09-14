@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "patoh",
+      "lastName": "patoh",
+      "email": "patoh@gmail.com",
+      "mobile": 58256396,
+      "department": "ICT"
+    },
+    {
+      "id": 2,
+      "firstName": "kevo",
+      "lastName": "Kip",
+      "email": "kevo@gmail.com",
+      "mobile": 52856987,
+      "department": "Agriculture"
+    },
+    {
+      "id": 3,
+      "firstName": "mary",
+      "lastName": "mary",
+      "email": "mary@gmail.com",
+      "mobile": 789456123,
+      "department": "Accounts"
+    },
+    {
+      "id": 4,
+      "firstName": "koech",
+      "lastName": "koech",
+      "email": "koech@gmail.com",
+      "mobile": 789456321,
+      "department": "GIS & survey"
+    },
+    {
+      "id": 5,
+      "firstName": "Hilla",
+      "lastName": "Koech",
+      "email": "hilla100@gmail.com",
+      "mobile": 721123456,
+      "department": "HR& Accounts"
+    },
+    {
+      "id": 6,
+      "firstName": "Test",
+      "lastName": "Test",
+      "email": "test@gmail.com",
+      "mobile": 54123456,
+      "department": "Testing"
+    },
+    {
+      "id": 7,
+      "firstName": "Sam",
+      "lastName": "Kiprono",
+      "email": "kiprono@gail.com",
+      "mobile": 745639963,
+      "department": "Manager"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

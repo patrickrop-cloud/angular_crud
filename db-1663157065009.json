@@ -1,0 +1,91 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "patrick",
+      "lastName": "patrick",
+      "email": "patrick@gmail.com",
+      "mobile": 721000000,
+      "department": "SD"
+    },
+    {
+      "id": 2,
+      "firstName": "patrick",
+      "lastName": "patrick",
+      "email": "patrick@gmail.com",
+      "mobile": 721000000,
+      "department": "accounts"
+    },
+    {
+      "id": 3,
+      "firstName": "patoh",
+      "lastName": "patoh",
+      "email": "patoh@gmail.com",
+      "mobile": 721100100,
+      "department": "ICT"
+    },
+    {
+      "id": 4,
+      "firstName": "kevo",
+      "lastName": "kevo",
+      "email": "kevo@gmail.com",
+      "mobile": 7210025436,
+      "department": "trans"
+    },
+    {
+      "id": 5,
+      "firstName": "mary",
+      "lastName": "mary",
+      "email": "mary@gmail.com",
+      "mobile": 785223698,
+      "department": "hospitality"
+    },
+    {
+      "id": 6,
+      "firstName": "koech",
+      "lastName": "koech",
+      "email": "koech100@gmail.com",
+      "mobile": 725896321,
+      "department": "store"
+    },
+    {
+      "id": 7,
+      "firstName": "wesley",
+      "lastName": "wesley",
+      "email": "wesley@gmail.com",
+      "mobile": 745896369,
+      "department": "agriculture"
+    },
+    {
+      "id": 8,
+      "firstName": "test5",
+      "lastName": "test5",
+      "email": "test5@gmail.com",
+      "mobile": 123456,
+      "department": "test"
+    },
+    {
+      "id": 9,
+      "firstName": "test20",
+      "lastName": "test20",
+      "email": "test20@gmail.com",
+      "mobile": 745698789,
+      "department": "agriculture"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "This is a trial",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "Angular is awsome",
+      "postId": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
