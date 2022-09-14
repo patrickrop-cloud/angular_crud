@@ -1,14 +1,6 @@
 {
   "posts": [
     {
-      "id": 1,
-      "firstName": "patoh",
-      "lastName": "patoh",
-      "email": "patoh@gmail.com",
-      "mobile": 58256396,
-      "department": "ICT"
-    },
-    {
       "id": 2,
       "firstName": "kevo",
       "lastName": "Kip",
@@ -55,15 +47,65 @@
       "email": "kiprono@gail.com",
       "mobile": 745639963,
       "department": "Manager"
-    }
-  ],
-  "comments": [
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 8,
+      "firstName": "Allan",
+      "lastName": "Mugweru",
+      "email": "allan10@gmail.com",
+      "mobile": 7123456789,
+      "department": "Doctor of girls"
+    },
+    {
+      "id": 9,
+      "firstName": "Moha",
+      "lastName": "Moha",
+      "email": "moha@gmail.com",
+      "mobile": 741236654,
+      "department": "kindly change"
+    },
+    {
+      "id": 10,
+      "firstName": "butita",
+      "lastName": "butita",
+      "email": "butita@gmail.com",
+      "mobile": 712345698,
+      "department": "commedy"
+    },
+    {
+      "id": 11,
+      "firstName": "butita",
+      "lastName": "butita",
+      "email": "butita@gmail.com",
+      "mobile": 712345698,
+      "department": "commedy"
+    },
+    {
+      "id": 12,
+      "firstName": "Peter",
+      "lastName": "Peter",
+      "email": "Peter",
+      "mobile": 785231456,
+      "department": "software"
+    },
+    {
+      "id": 13,
+      "firstName": "Kipngenoh",
+      "lastName": "collins",
+      "email": "kipngenoh@gmail.com",
+      "mobile": 720321654,
+      "department": "Editor"
+    },
+    {
+      "id": 14,
+      "firstName": "patoh ",
+      "lastName": "patoh",
+      "email": "patoh@gmail.com",
+      "mobile": 789456123,
+      "department": "Software"
     }
   ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
