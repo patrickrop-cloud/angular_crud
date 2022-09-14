@@ -15,6 +15,7 @@ export class DashboardComponent implements OnInit {
   employeeData : any[]=[];
   showAdd! : boolean;
   showUpdate! : boolean;
+  delEmployee! : boolean;
   
   constructor(private formbuilder:FormBuilder,
     private api : ApiService) { }
@@ -67,7 +68,7 @@ export class DashboardComponent implements OnInit {
   deleteEmployee(row : any){
     this.api.deleteEmployee(row.id).subscribe
     (res=>{
-      alert('Employee deleted succesfully');
+      confirm('Do you want to delete employee?');
       this.getAllEmployee();
     },
     (res)=>{
