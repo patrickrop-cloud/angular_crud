@@ -5,7 +5,7 @@
         <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
           <mat-icon>dashboard</mat-icon>
         </button>
-        <span class="example-spacer" style="margin-left: 0.5rem; " >Dashboard</span>
+        <span class="example-spacer" style="margin-left: 0.5rem;">Dashboard</span>
         <button (click)="clickAddEmployee()" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
           <mat-icon>create</mat-icon>
         </button>
@@ -17,7 +17,7 @@
     </div>
   </nav>
   
-  <table class="table mt-3"> 
+  <table class="table mt-6"> 
     <thead>
       <tr>
         <th scope="col">Employee ID</th>
@@ -37,7 +37,7 @@
        <td>{{row.lastName}}</td>
        <td>{{row.email}}</td>
        <td>{{row.mobile}}</td>
-       <td>{{row.salary}}</td>
+       <td>{{row.salary | currency}}</td>
        <td>{{row.department}}</td>
         <td>
           <button (click)="onEdit(row)" class="btn btn-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">

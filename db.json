@@ -16,16 +16,16 @@
       "email": "test@gmail.com",
       "mobile": 712456987,
       "salary": 20000,
-      "department": "Testing"
+      "department": "Testing & Deployment"
     },
     {
       "id": 3,
       "firstName": "Kevo",
       "lastName": "Kip",
-      "email": null,
-      "mobile": null,
-      "salary": null,
-      "department": null
+      "email": "kevo@gmail.com",
+      "mobile": 784521365,
+      "salary": 15000,
+      "department": "Driver"
     },
     {
       "id": 4,
@@ -35,6 +35,78 @@
       "mobile": 712456987,
       "salary": 13000,
       "department": "HR & Accounts"
+    },
+    {
+      "id": 5,
+      "firstName": "Hilla",
+      "lastName": "Hilla",
+      "email": "hilla@gmail.com",
+      "mobile": 714562325,
+      "salary": 5000,
+      "department": "Admin"
+    },
+    {
+      "id": 6,
+      "firstName": "john",
+      "lastName": "Doe",
+      "email": "john@gmail.com",
+      "mobile": 741235654,
+      "salary": 30000,
+      "department": "Farming"
+    },
+    {
+      "id": 7,
+      "firstName": "Peter",
+      "lastName": "Peter",
+      "email": "peter@gmail.com",
+      "mobile": 745632654,
+      "salary": 10000,
+      "department": "Cleaning & Gardening"
+    },
+    {
+      "id": 8,
+      "firstName": "Nick",
+      "lastName": "Nick",
+      "email": "nick@gmail.com",
+      "mobile": 7541236540,
+      "salary": 821500,
+      "department": "Electrical"
+    },
+    {
+      "id": 9,
+      "firstName": "Moha",
+      "lastName": "Moha",
+      "email": "moha@gmail.com",
+      "mobile": 789456123,
+      "salary": 40000,
+      "department": "software"
+    },
+    {
+      "id": 10,
+      "firstName": "Amos",
+      "lastName": "Wako",
+      "email": "amos@gmail.com",
+      "mobile": 5623123,
+      "salary": 15000,
+      "department": "Judiciary"
+    },
+    {
+      "id": 11,
+      "firstName": "George",
+      "lastName": "smith",
+      "email": "adrian@gmail.com",
+      "mobile": 7452145,
+      "salary": 51000,
+      "department": "Public transport"
+    },
+    {
+      "id": 12,
+      "firstName": "Adrian",
+      "lastName": "smith",
+      "email": "adrian@gmail.com",
+      "mobile": 7452145,
+      "salary": 21000,
+      "department": "Public works"
     }
   ],
   "comments": [

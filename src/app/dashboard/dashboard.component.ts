@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder,FormGroup } from '@angular/forms';
+import { FormBuilder,FormGroup, Validators } from '@angular/forms';
 import { ApiService } from '../shared/api.service';
 import { Employeemodel } from './employee-dashboard.model';
 
@@ -15,17 +15,17 @@ export class DashboardComponent implements OnInit {
   employeeData : any[]=[];
   showAdd! : boolean;
   showUpdate! : boolean;
-  delEmployee! : boolean;
+  // delEmployee! : boolean;
   
   constructor(private formbuilder:FormBuilder,
     private api : ApiService) { }
 
   ngOnInit(): void {
     this.formValue = this.formbuilder.group({
-      firstName:[''],
-      lastName:[''],
-      email:[''],
-      mobile:[''],
+      firstName:['',Validators.required],
+      lastName:['',Validators.required],
+      email:['',Validators.required],
+      mobile:['',Validators.required],
       salary:[''],
       department:['']
     })
@@ -37,6 +37,7 @@ export class DashboardComponent implements OnInit {
     this.showUpdate = false;
   }
   postEmployeeDetails(){
+    if(this.formValue.valid){
     this.showAdd = true;
     this.showUpdate = false;
     this.employeeModelObject.firstName = this.formValue.value.firstName;
@@ -47,7 +48,7 @@ export class DashboardComponent implements OnInit {
     this.employeeModelObject.department = this.formValue.value.department;
 
     this.api.postEmployee(this.employeeModelObject).subscribe(res=>{
-      console.log(res);
+      
       alert("Employee added succesfully")
       let ref = document.getElementById('close')
       ref?.click();
@@ -57,6 +58,9 @@ export class DashboardComponent implements OnInit {
     err=>{
       alert(" Ooops! sorry! Try again")
     })
+    
+  }
+    
   }
   getAllEmployee(){
     this.api.getEmployee().subscribe
@@ -87,9 +91,10 @@ export class DashboardComponent implements OnInit {
     this.formValue.controls['mobile'].setValue(row.mobile);
     this.formValue.controls['salary'].setValue(row.salary);
     this.formValue.controls['department'].setValue(row.department);
-  
+    
   }
   updateEmployeeDetails(){
+    if(this.formValue.valid){
     this.employeeModelObject.firstName = this.formValue.value.firstName;
     this.employeeModelObject.lastName = this.formValue.value.lastName;
     this.employeeModelObject.email = this.formValue.value.email;
@@ -108,5 +113,7 @@ export class DashboardComponent implements OnInit {
     err=>{
     alert('Error, kindly try again!');
     })
+    }
+    
   }
 }
