@@ -2,94 +2,48 @@
   "posts": [
     {
       "id": 1,
-      "firstName": "kevo",
-      "lastName": "Kip",
-      "email": "kevo@gmail.com",
-      "mobile": 52856987,
-      "department": "Agriculture"
+      "firstName": "Patrick",
+      "lastName": "Rop",
+      "email": "patrickrop399@gmail.com",
+      "mobile": 745123654,
+      "salary": 53000,
+      "department": "Software developer"
     },
     {
       "id": 2,
-      "firstName": "mary",
-      "lastName": "mary",
-      "email": "mary@gmail.com",
-      "mobile": 789456123,
-      "department": "Accounts"
-    },
-    {
-      "id": 3,
-      "firstName": "koech",
-      "lastName": "koech",
-      "email": "koech@gmail.com",
-      "mobile": 789456321,
-      "department": "GIS & survey"
-    },
-    {
-      "id": 4,
-      "firstName": "Hilla",
-      "lastName": "Koech",
-      "email": "hilla100@gmail.com",
-      "mobile": 721123456,
-      "department": "HR& Accounts"
-    },
-    {
-      "id": 5,
       "firstName": "Test",
       "lastName": "Test",
       "email": "test@gmail.com",
-      "mobile": 54123456,
+      "mobile": 712456987,
+      "salary": 20000,
       "department": "Testing"
     },
     {
-      "id": 6,
-      "firstName": "Sam",
-      "lastName": "Kiprono",
-      "email": "kiprono@gail.com",
-      "mobile": 745639963,
-      "department": "Manager"
+      "id": 3,
+      "firstName": "Kevo",
+      "lastName": "Kip",
+      "email": null,
+      "mobile": null,
+      "salary": null,
+      "department": null
     },
     {
-      "id": 7,
-      "firstName": "Allan",
-      "lastName": "Mugweru",
-      "email": "allan10@gmail.com",
-      "mobile": 7123456789,
-      "department": "Doctor of girls"
-    },
-    {
-      "id": 8,
-      "firstName": "Moha",
-      "lastName": "Moha",
-      "email": "moha@gmail.com",
-      "mobile": 741236654,
-      "department": "kindly change"
-    },
-    {
-      "id": 9,
-      "firstName": "butita",
-      "lastName": "butita",
-      "email": "butita@gmail.com",
-      "mobile": 712345698,
-      "department": "commedy"
-    },
-    {
-      "id": 10,
-      "firstName": "butita",
-      "lastName": "butita",
-      "email": "butita@gmail.com",
-      "mobile": 712345698,
-      "department": "commedy"
-    },
-    {
-      "id": 11,
-      "firstName": "Peter",
-      "lastName": "Peter",
-      "email": "Peter",
-      "mobile": 785231456,
-      "department": "software"
+      "id": 4,
+      "firstName": "Mary",
+      "lastName": "Mary",
+      "email": "mary@gmail.com",
+      "mobile": 712456987,
+      "salary": 13000,
+      "department": "HR & Accounts"
     }
   ],
-  "comments": [],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
   "profile": {
     "name": "typicode"
   }

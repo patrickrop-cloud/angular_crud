@@ -26,6 +26,7 @@ export class DashboardComponent implements OnInit {
       lastName:[''],
       email:[''],
       mobile:[''],
+      salary:[''],
       department:['']
     })
     this.getAllEmployee();
@@ -42,6 +43,7 @@ export class DashboardComponent implements OnInit {
     this.employeeModelObject.lastName = this.formValue.value.lastName;
     this.employeeModelObject.email = this.formValue.value.email;
     this.employeeModelObject.mobile = this.formValue.value.mobile;
+    this.employeeModelObject.salary = this.formValue.value.salary;
     this.employeeModelObject.department = this.formValue.value.department;
 
     this.api.postEmployee(this.employeeModelObject).subscribe(res=>{
@@ -83,6 +85,7 @@ export class DashboardComponent implements OnInit {
     this.formValue.controls['lastName'].setValue(row.lastName);
     this.formValue.controls['email'].setValue(row.email);
     this.formValue.controls['mobile'].setValue(row.mobile);
+    this.formValue.controls['salary'].setValue(row.salary);
     this.formValue.controls['department'].setValue(row.department);
   
   }
@@ -91,6 +94,7 @@ export class DashboardComponent implements OnInit {
     this.employeeModelObject.lastName = this.formValue.value.lastName;
     this.employeeModelObject.email = this.formValue.value.email;
     this.employeeModelObject.mobile = this.formValue.value.mobile;
+    this.employeeModelObject.salary = this.formValue.value.salary;
     this.employeeModelObject.department = this.formValue.value.department;
 
     this.api.updateEmployee(this.employeeModelObject, this.employeeModelObject.id)
