@@ -6,7 +6,7 @@
       "lastName": "Rop",
       "email": "patrickrop399@gmail.com",
       "mobile": 745123654,
-      "salary": 53000,
+      "salary": 53100,
       "department": "Software developer"
     },
     {
@@ -59,8 +59,8 @@
       "firstName": "Peter",
       "lastName": "Peter",
       "email": "peter@gmail.com",
-      "mobile": 745632654,
-      "salary": 10000,
+      "mobile": 745658712,
+      "salary": 100000,
       "department": "Cleaning & Gardening"
     },
     {
@@ -98,15 +98,6 @@
       "mobile": 7452145,
       "salary": 51000,
       "department": "Public transport"
-    },
-    {
-      "id": 12,
-      "firstName": "Adrian",
-      "lastName": "smith",
-      "email": "adrian@gmail.com",
-      "mobile": 7452145,
-      "salary": 21000,
-      "department": "Public works"
     }
   ],
   "comments": [

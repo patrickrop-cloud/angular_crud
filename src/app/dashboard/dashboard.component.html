@@ -10,13 +10,14 @@
           <mat-icon>create</mat-icon>
         </button>
       </mat-toolbar>
+      
+    
       <!-- <h1>Dashboard</h1> -->
       <!-- <div class="d-flex">
         <button (click)="clickAddEmployee()" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn btn-success">Add Employee</button>
       </div> -->
     </div>
   </nav>
-  
   <table class="table mt-6"> 
     <thead>
       <tr>
@@ -93,6 +94,16 @@
           <button type="button" *ngIf="showAdd" (click)="postEmployeeDetails()" class="btn btn-primary">Add</button>
           <button type="button" *ngIf="showUpdate" (click)="updateEmployeeDetails()" class="btn btn-primary" >Update</button>
         </div>
+       
       </div>
     </div>
   </div> 
+  <div>
+    <mat-paginator [length]="200"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]"
+              aria-label="Select page">
+        </mat-paginator>
+  </div>
+
+  
