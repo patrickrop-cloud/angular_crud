@@ -1,0 +1,32 @@
+.card{
+    margin-top: 10px;
+    /* border: none; */
+    width: 350px;
+    padding: 20px;
+    position: absolute;
+    border: solid 2pt;
+    background: hsl(200, 35%, 22%, 1);
+    /* top: 50%; */
+    /* left: 50%; */
+    /* background: hsla(205, 46%, 30%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 30%, 1)); */
+    /* background: #050507; */
+} 
+.card h1, h5{
+    color: #fff;
+}
+label{
+    color: #fff;
+}
+.gender{
+    /* background: #fff; */
+    /* width: 50px; */
+    /* height: 80px; */
+    /* color: black; */
+    text-align: left;
+    color: white;
+}
+#route{
+    margin-top: 15px;
+    text-align: center;
+}

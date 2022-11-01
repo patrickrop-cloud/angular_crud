@@ -1,0 +1,62 @@
+<!-- <p>login works!</p> -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1 style="font-weight: 600;">Sign Up</h1>
+                    <h5>Please signup to continue</h5>
+                </div>
+                <form>
+                    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
+                        <div class="mb-3">
+                            <label class="form-label">First Name</label>
+                            <input type="text" formControlName="firstName" class="form-control" id="formGroupExampleInput" placeholder="First Name">
+                            <small *ngIf="signupForm.get('firstName')?.invalid && signupForm.get('firstName')?.touched" class="text-danger">&nbsp;First Name is required!</small>
+                          </div>
+                          <div class="mb-3">
+                            <label  class="form-label">Last Name</label>
+                            <input formControlName="lastName" type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name">
+                          </div>
+                        <div class="mb-3">
+                          <label class="form-label">Email Address</label>
+                          <input formControlName="email" type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          <small *ngIf="signupForm.get('email')?.invalid && signupForm.get('email')?.touched" class="text-danger">&nbsp;Email is required!</small>
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label">Password</label>
+                          <input formControlName="password" type="password" class="form-control" placeholder="password">
+                          <small *ngIf="signupForm.get('password')?.invalid && signupForm.get('password')?.touched" class="text-danger">&nbsp;Password is required!</small>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Confirm Password</label>
+                            <input formControlName="confirmpassword" type="password" class="form-control" placeholder="confirm password">
+                            <small *ngIf="signupForm.get('confirmpassword')?.invalid && signupForm.get('confirmpassword')?.touched" class="text-danger">&nbsp;Confirm Password is required!</small>
+                          </div>
+                          <div class="mb-3">
+                            <label class="form-label">Choose Gender</label>
+                              <div class="gender">
+                                <mat-form-field appearance="legacy">
+                                  <select matNativeControl required>
+                                    <option value="placeholder">Choose Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="Rather">Rather not say</option>  
+                                  </select>
+                                </mat-form-field>
+                        
+                              </div>
+                          </div>
+                          <div id="signup">
+                            <button type="submit" class="btn btn-primary" style="width: 300px; font-size: 15px;"[disabled]="signupForm.invalid">Sign Up</button>
+                          </div>
+                      </form>
+                      <div id="route">
+                        <a routerLink="/login" style="color: white;">Already have an account? Please Login</a>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -37,6 +37,24 @@
       "department": "HR & Accounts"
     },
     {
+      "id": 5,
+      "firstName": "Hilla",
+      "lastName": "Hilla",
+      "email": "hilla@gmail.com",
+      "mobile": 714562325,
+      "salary": 5000,
+      "department": "Admin"
+    },
+    {
+      "id": 6,
+      "firstName": "john",
+      "lastName": "Doe",
+      "email": "john@gmail.com",
+      "mobile": 741235654,
+      "salary": 30000,
+      "department": "Farming"
+    },
+    {
       "id": 7,
       "firstName": "Peter",
       "lastName": "Peter",
@@ -64,6 +82,15 @@
       "department": "software"
     },
     {
+      "id": 10,
+      "firstName": "Amos",
+      "lastName": "Wako",
+      "email": "amos@gmail.com",
+      "mobile": 5623123,
+      "salary": 15000,
+      "department": "Judiciary"
+    },
+    {
       "id": 11,
       "firstName": "George",
       "lastName": "smith",
@@ -71,44 +98,13 @@
       "mobile": 7452145,
       "salary": 51000,
       "department": "Public transport"
-    },
-    {
-      "id": 12,
-      "firstName": "Victor",
-      "lastName": "Ajuoga10",
-      "email": "victor10@gmail.com",
-      "mobile": 710258963,
-      "salary": 600000,
-      "department": "ICT"
     }
   ],
-  "users": [
+  "comments": [
     {
-      "firstName": "Mohamed",
-      "lastName": "Mohamed",
-      "email": "mohamed@gmail.com",
-      "password": "123456",
-      "confirmpassword": "123456",
-      "gender": "male,female,rather not say",
-      "id": 1
-    },
-    {
-      "firstName": "Mary",
-      "lastName": "Doe",
-      "email": "marydoe@gmail.com",
-      "password": "mary123",
-      "confirmpassword": "mary123",
-      "gender": "male,female,rather not say",
-      "id": 2
-    },
-    {
-      "firstName": "Patrick",
-      "lastName": "Rop",
-      "email": "patrick@gmail.com",
-      "password": "patrick123",
-      "confirmpassword": "patrick123",
-      "gender": "male,female,rather not say",
-      "id": 3
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
     }
   ],
   "profile": {
